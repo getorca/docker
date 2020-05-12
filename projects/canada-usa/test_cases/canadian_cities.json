@@ -1,0 +1,29 @@
+{
+  "name": "Canadian Cities",
+  "priorityThresh": 1,
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "Lawrence",
+      "in": {
+        "text": "Winnipeg Maniboa Canada"
+      },
+      "expected": {
+        "properties": [
+          {
+            "locality": "Winnipeg",
+            "region": "Manitoba",
+            "country": "Canada"
+          }
+        ],
+        "coordinates": [
+          [ -97.138026, 49.874557 ]
+        ],
+        "bbox": [
+          -97.349151, 49.713556, -96.956529, 49.994008
+        ]
+      }
+    }
+  ]
+}

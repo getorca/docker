@@ -41,14 +41,13 @@
     },
     "openstreetmap": {
       "download": [
-        { "sourceURL": "http://download.geofabrik.de/north-america/canada-latest.osm.pbf" },
+	{ "sourceURL": "http://download.geofabrik.de/north-america/canada-latest.osm.pbf" },
         { "sourceURL": "http://download.geofabrik.de/north-america/us-latest.osm.pbf" }
       ],
       "leveldbpath": "/tmp",
       "datapath": "/data/openstreetmap",
       "import": [
-        { "filename": "canada-latest.osm.pbf" },
-        { "filename": "us-latest.osm.pbf" }
+        { "filename": "canada-us.osm.pbf" }
       ]
     },
     "openaddresses": {
